@@ -405,12 +405,11 @@ form.sign-in-form {
 .first_page
 {
   text-align: center;
-  padding: 0;
+  padding: 30px;
   margin: 0;
-  height: 110vh;
+  height: 100%;
   background-image: url(../mall.jpg);
   background-repeat: no-repeat;
-  background-attachment: fixed;
   background-size: cover;
   transition: 2s;
 }

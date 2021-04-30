@@ -405,32 +405,45 @@ form.sign-in-form {
 .first_page
 {
   text-align: center;
-  padding: 30px;
+  padding: 60px 0px;
   margin: 0;
-  height: 100%;
+  height: 130%;
   background-image: url(../mall.jpg);
   background-repeat: no-repeat;
+  background-attachment: fixed;
   background-size: cover;
   transition: 2s;
 }
 .logo-description
 {  
-  width: 400px;
-  margin: 0 auto;
-  padding-top: 20px;
+  width: 60%;
+  margin: 50px auto;
 }
 .logo , .description
 {
   background-color: rgba(74, 248, 248, 0.774);
   border-radius: 20px;
-  padding: 20px;
+  padding: 25px 60px;
 }
 .logo img
 {
-  width: 300px;
-  height: 180px;
+  width: 220px;
+  height: 200px;
 }
 .description a:hover
 {
   color: rgb(0, 0, 0);
+}
+
+@media (max-width:570px)
+{
+  .logo img
+  {
+    width: 150px;
+    height: 138px;
+  }
+  .logo , .description
+{
+  padding: 25px 40px;
+}
 }

@@ -425,6 +425,9 @@ form.sign-in-form {
   border-radius: 20px;
   padding: 20px;
 }
+.logo{
+  font-family: 'Krona One', sans-serif;
+}
 .logo img
 {
   width: 300px;
